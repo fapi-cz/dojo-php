@@ -1,0 +1,12 @@
+services:
+  dojo:
+    build:
+      context: dojo
+    hostname: djo.fapi.docker
+    container_name: dojo
+    user: "1000:1000"
+    volumes:
+      - ../:/fapi/links/dojo
+    environment:
+      UPLOAD_LIMIT: 513M
+      MEMORY_LIMIT: 513M

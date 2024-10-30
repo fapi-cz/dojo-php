@@ -1,0 +1,4 @@
+/.idea
+/elasticsearch/data
+/mysql/data
+/rabbit/data
