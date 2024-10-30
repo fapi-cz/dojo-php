@@ -23,3 +23,9 @@ Run the command below to run the tests:
 ```bash
 make test
 ```
+
+If new file is added to the project, run the command below to generate the coverage:
+
+```bash
+make composer-dump-autoload
+```

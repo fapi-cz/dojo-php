@@ -5,6 +5,9 @@ help: ## List available targets (this page)
 test:
 	docker exec dojo /bin/sh -c '/fapi/links/dojo/vendor/bin/tester -C /fapi/links/dojo/tests'
 
+composer-dump-autoload: ## Run composer dump-autoload
+	docker run --rm --interactive --tty --volume "$$PWD:/app" --user "$$(id -u):$$(id -g)" --volume ~/.ssh:/root/.ssh  composer:2 composer dump-autoload
+
 composer-update: ## Run composer update
 	docker run --rm --interactive --tty --volume "$$PWD:/app" --user "$$(id -u):$$(id -g)" --volume ~/.ssh:/root/.ssh  composer:2 composer update -W --ignore-platform-req=ext-intl --ignore-platform-req=ext-pcntl --ignore-platform-req=ext-soap --ignore-platform-req=ext-imap --ignore-platform-req=ext-sockets --ignore-platform-req=ext-gd --ignore-platform-req=ext-bcmath
 
