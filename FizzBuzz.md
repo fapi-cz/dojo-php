@@ -1,6 +1,6 @@
 # 🧪 Coding Dojo: FizzBuzz (rozšířená verze)
 
-## Zadání
+## Zadání (MK,OH - 15 min)
 Vytvoř funkci:
 
 ```php
