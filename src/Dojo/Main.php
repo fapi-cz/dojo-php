@@ -7,11 +7,10 @@ require_once __DIR__ . '/../../vendor/autoload.php';
 class Main
 {
 
-	/**
-	 * @param string $message
-	 * @return array<string|float>
-	 */
-	public function process(string $message): array {
-	    return [];
+	public function fizzBuzz(int $number): string
+	{
+		return (string) $number;
+
 	}
+
 }

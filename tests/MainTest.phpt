@@ -11,12 +11,12 @@ require_once __DIR__ . '/../vendor/autoload.php';
 class MainTest extends TestCase
 {
 
-	public function testProcess(): void {
-		$main = new Main();
-		$result = $main->process('Hello World');
-		Assert::same([], $result);
-		Assert::same([1], $main->process(''));
+	public function testReturnsNumberAsString()
+	{
+		$fb = new Main();
+		Assert::same("1", $fb->fizzBuzz(1));
 	}
+
 }
 
 (new MainTest())->run();

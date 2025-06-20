@@ -1,6 +1,7 @@
 {
+
     "require": {
-        "smartemailing/types": "^3.0"
+        "smartemailing/types": "^4.0"
     },
     "require-dev": {
         "nette/tester": "^2.5"

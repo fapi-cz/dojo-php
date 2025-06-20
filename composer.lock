@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "29ff60fcf8796111f2f139211400d778",
+    "content-hash": "8bbfb3bd7cb4d12c002cddd9caecafc4",
     "packages": [
         {
             "name": "doctrine/lexer",
@@ -85,16 +85,16 @@
         },
         {
             "name": "egulias/email-validator",
-            "version": "4.0.2",
+            "version": "4.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egulias/EmailValidator.git",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e"
+                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/ebaaf5be6c0286928352e054f2d5125608e5405e",
-                "reference": "ebaaf5be6c0286928352e054f2d5125608e5405e",
+                "url": "https://api.github.com/repos/egulias/EmailValidator/zipball/d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
+                "reference": "d42c8731f0624ad6bdc8d3e5e9a4524f68801cfa",
                 "shasum": ""
             },
             "require": {
@@ -140,7 +140,7 @@
             ],
             "support": {
                 "issues": "https://github.com/egulias/EmailValidator/issues",
-                "source": "https://github.com/egulias/EmailValidator/tree/4.0.2"
+                "source": "https://github.com/egulias/EmailValidator/tree/4.0.4"
             },
             "funding": [
                 {
@@ -148,25 +148,25 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-10-06T06:47:41+00:00"
+            "time": "2025-03-06T22:45:56+00:00"
         },
         {
             "name": "nette/http",
-            "version": "v3.3.0",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/http.git",
-                "reference": "c779293fb79e6d2a16d474cd19dce866615f3b9c"
+                "reference": "3e2587b34beb66f238f119b12fbb4f0b9ab2d6d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/http/zipball/c779293fb79e6d2a16d474cd19dce866615f3b9c",
-                "reference": "c779293fb79e6d2a16d474cd19dce866615f3b9c",
+                "url": "https://api.github.com/repos/nette/http/zipball/3e2587b34beb66f238f119b12fbb4f0b9ab2d6d1",
+                "reference": "3e2587b34beb66f238f119b12fbb4f0b9ab2d6d1",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^4.0.4",
-                "php": "8.1 - 8.3"
+                "php": "8.1 - 8.4"
             },
             "conflict": {
                 "nette/di": "<3.0.3",
@@ -227,22 +227,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/http/issues",
-                "source": "https://github.com/nette/http/tree/v3.3.0"
+                "source": "https://github.com/nette/http/tree/v3.3.2"
             },
-            "time": "2024-01-30T18:16:20+00:00"
+            "time": "2025-01-12T16:27:57+00:00"
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.5",
+            "version": "v4.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96"
+                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
-                "reference": "736c567e257dbe0fcf6ce81b4d6dbe05c6899f96",
+                "url": "https://api.github.com/repos/nette/utils/zipball/e67c4061eb40b9c113b218214e42cb5a0dda28f2",
+                "reference": "e67c4061eb40b9c113b218214e42cb5a0dda28f2",
                 "shasum": ""
             },
             "require": {
@@ -313,22 +313,22 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.5"
+                "source": "https://github.com/nette/utils/tree/v4.0.7"
             },
-            "time": "2024-08-07T15:39:19+00:00"
+            "time": "2025-06-03T04:55:08+00:00"
         },
         {
             "name": "smartemailing/types",
-            "version": "v3.0.7",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/smartemailing/types.git",
-                "reference": "8a62df5932ebd84a562d36e29a13ec63c4bb0a4c"
+                "reference": "8269aa1d2872a89a1b6dda0bb9bdb88607372508"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smartemailing/types/zipball/8a62df5932ebd84a562d36e29a13ec63c4bb0a4c",
-                "reference": "8a62df5932ebd84a562d36e29a13ec63c4bb0a4c",
+                "url": "https://api.github.com/repos/smartemailing/types/zipball/8269aa1d2872a89a1b6dda0bb9bdb88607372508",
+                "reference": "8269aa1d2872a89a1b6dda0bb9bdb88607372508",
                 "shasum": ""
             },
             "require": {
@@ -342,10 +342,12 @@
             },
             "require-dev": {
                 "jschaedl/iban-validation": "^2.0",
-                "nepada/phpstan-nette-tester": "^1.0",
+                "nepada/phpstan-nette-tester": "^2.0",
                 "nette/tester": "^2.4",
-                "phpstan/phpstan": "^1.9",
-                "phpstan/phpstan-nette": "^1.2",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^2.0",
+                "phpstan/phpstan-nette": "^2.0",
+                "phpstan/phpstan-strict-rules": "^2.0",
                 "slevomat/coding-standard": "^8.8",
                 "tracy/tracy": "^2.9"
             },
@@ -378,22 +380,22 @@
             ],
             "support": {
                 "issues": "https://github.com/smartemailing/types/issues",
-                "source": "https://github.com/smartemailing/types/tree/v3.0.7"
+                "source": "https://github.com/smartemailing/types/tree/v4.0.1"
             },
-            "time": "2024-05-22T15:57:29+00:00"
+            "time": "2024-12-03T13:45:31+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773"
+                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/c36586dcf89a12315939e00ec9b4474adcb1d773",
-                "reference": "c36586dcf89a12315939e00ec9b4474adcb1d773",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/9614ac4d8061dc257ecc64cba1b140873dce8ad3",
+                "reference": "9614ac4d8061dc257ecc64cba1b140873dce8ad3",
                 "shasum": ""
             },
             "require": {
@@ -406,8 +408,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -447,7 +449,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-intl-idn/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -463,11 +465,11 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2024-09-10T14:38:51+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.31.0",
+            "version": "v1.32.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -488,8 +490,8 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
+                    "url": "https://github.com/symfony/polyfill",
+                    "name": "symfony/polyfill"
                 }
             },
             "autoload": {
@@ -528,7 +530,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.31.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.32.0"
             },
             "funding": [
                 {
@@ -550,16 +552,16 @@
     "packages-dev": [
         {
             "name": "nette/tester",
-            "version": "v2.5.4",
+            "version": "v2.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/tester.git",
-                "reference": "c11863785779e87b40adebf150364f2e5938c111"
+                "reference": "4b8a8519307598b56142ea0567b2cedb474af3fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/tester/zipball/c11863785779e87b40adebf150364f2e5938c111",
-                "reference": "c11863785779e87b40adebf150364f2e5938c111",
+                "url": "https://api.github.com/repos/nette/tester/zipball/4b8a8519307598b56142ea0567b2cedb474af3fc",
+                "reference": "4b8a8519307598b56142ea0567b2cedb474af3fc",
                 "shasum": ""
             },
             "require": {
@@ -567,7 +569,7 @@
             },
             "require-dev": {
                 "ext-simplexml": "*",
-                "phpstan/phpstan": "^1.0"
+                "phpstan/phpstan-nette": "^2.0@stable"
             },
             "bin": [
                 "src/tester"
@@ -579,6 +581,9 @@
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "Tester\\": "src"
+                },
                 "classmap": [
                     "src/"
                 ]
@@ -619,17 +624,17 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/tester/issues",
-                "source": "https://github.com/nette/tester/tree/v2.5.4"
+                "source": "https://github.com/nette/tester/tree/v2.5.5"
             },
-            "time": "2024-10-23T23:57:10+00:00"
+            "time": "2025-06-19T17:58:04+00:00"
         }
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
